@@ -23,7 +23,7 @@
     theme: {
       extend: {
         colors: {
-          primary: 'red',
+          primary: 'rgb(171, 239, 95)',
         }
       }
     }
@@ -31,7 +31,132 @@
 </script>
 
 <body>
-  <h1 class="text-primary">Hello How Are You </h1>
+  <!-- My Header Section Start -->
+  <header class="w-11/12 mx-auto bg-[rgba(255,255,255,0)] mt-6 ">
+    <!-- Navbar Start Here -->
+
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <i class="p-2 bg-primary -rotate-45 rounded-full fa-solid fa-arrow-right "></i>
+          <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="font-bold"><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Protfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us </a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div tabindex="0" role="button" class="btn  lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+
+              </div>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-20 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Service</a></li>
+              <li><a>Tutorial</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact US</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="hidden lg:block">
+
+
+            <span class="mr-5"><i
+                class="shadow-lg border border-red-50 p-3 rounded-full fa-solid fa-magnifying-glass"></i>
+              <i
+                class="ml-5 shadow-lg border text-gray-500 border-red-50 p-3 rounded-full  fa-solid fa-cart-shopping"></i></span>
+            <button class="text-2xl font-bold btn bg-primary"> Book Consult <span class="text-base"><i
+                  class="p-2 bg-black  text-white -rotate-45 rounded-full fa-solid fa-arrow-right "></i></span></button>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar Ends  Here -->
+    <section>
+      <div class="">
+        <img class="block m-auto" src="assets/banner.png" alt="">
+      </div>
+      <div>
+        <h1 class="text-center text-4xl md:text-5xl font-bold ">A barn house of this design has a <br> striking
+          appearance</h1>
+        <p class="mt-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+          weathered
+          sleek metal accents, and large windows that flood the space with natural light hello how are you
+          captivates with its blend of rustic charm and modern sophistication,
+          sleek metal accents, and large windows that flood the space with natural light. yes i will do Everything </p>
+        <button class="btn bg-primary rounded-3xl px-5 opacity-70 mt-6 block mx-auto">View Details</button>
+      </div>
+    </section>
+
+  </header>
+
+  <main>
+    <section class="bg-[rgb(244,244,244)]  mt-16">
+
+      <div class="w-11/12 mx-auto">
+        <div class="relative -left-4 top-4">
+          <img src="assets/Vector.png" alt="">
+        </div>
+        <!-- Design Information Start  -->
+        <div class="lg:flex mt-14 ">
+          <!-- Text -->
+          <div class="flex-1">
+            <div>
+              <h1 class="text-4xl mb-3 font-bold">We Design thoughtfull, <br> liveable Spaces</h1>
+              <p class="mb-2">He dear see This is my Dream my dream House one day i will make like this House. Now iam
+                making to
+                strong.He dear see This is my Dream my dream House one day i will make like this House. Now iam making
+                to
+                strong
+              </p>
+            </div>
+            <div class="flex rounded-lg items-center mt-4 shadow-lg p-8 lg:h-40">
+              <!-- Commercial  img -->
+              <div class="mr-5">
+                <img class="w-32" src="assets/commercial.png" alt="">
+              </div>
+              <!-- Cmmercial  text -->
+              <div>
+                <h2 class="text-2xl font-bold mb-3">Comercial</h2>
+                <p>The house is is commercial house . Its very Butiful , and gorgeos The house is is commercial house .
+                  Its very Butiful and gorgeos</p>
+              </div>
+            </div>
+            <div class="flex rounded-lg items-center mt-4 shadow-lg p-8 lg:h-40 mb-5 ">
+              <!-- Commercial  img -->
+              <div class="mr-5">
+                <img class="w-32" src="assets/residential.png" alt="">
+              </div>
+              <!-- Cmmercial  text -->
+              <div>
+                <h2 class="text-2xl font-bold mb-3">Residetial</h2>
+                <p>The house is is commercial house . Its very Butiful , and gorgeos The house is is commercial house .
+                  Its very Butiful and gorgeos</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="flex-1 lg:ml-32">
+            <img src="assets/Rectangle.png" alt="">
+          </div>
+        </div>
+        <!-- Design Information Ends  -->
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
